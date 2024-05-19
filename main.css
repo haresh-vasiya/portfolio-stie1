@@ -135,5 +135,21 @@ img {
   font-weight: 900;
 }
 
-@media() {
+@media only screen and (max-width: 768px) {
+  .qualification {
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    row-gap: 30px;
+    width: 90vw;
+  }
+
+  .banner-text {
+    width: 100%;
+  }
+
+  img {
+    border-radius: 15px;
+    margin-bottom: 30px;
+  }
 }
